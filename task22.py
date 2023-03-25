@@ -5,7 +5,6 @@
 Затем пользователь вводит сами элементы множеств.
 """
 
-
 from random import randint
 n_set = set(randint(1, 20) for i in range(int(input('Введите кол-во элементов первого множества: '))))
 print(n_set)
